@@ -11,7 +11,7 @@ class ChatViewController: UIViewController {
     
     private let tableView: UITableView = {
         let tableView = UITableView()
-        let backgroundImage = UIImage(named: "6")
+        let backgroundImage = UIImage(named: "7")
         let imageView = UIImageView(image: backgroundImage)
         tableView.backgroundView = imageView
         return tableView
